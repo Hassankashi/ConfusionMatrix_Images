@@ -2,7 +2,7 @@ close all;clc;
 corr_confusion_matrix=zeros(7,7); %Assume that there are 7(n) pictures inn your folder, so matrix will be 7*7 (n*n)
 for i=1:7
     for j=1:7
-        myFolder='C:\Users\Mahsa\Desktop\Tasks\9-#P3094-skin-matlab-cnn\cnn_skin\Correlation\Correlation\another\';
+        myFolder='C:\Users\Mahsa\Desktop\[Path_To_Your_Folder]\';
         
         i_value= i;
         output_file_i = [num2str(i_value) '.jpg'];
